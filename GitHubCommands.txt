@@ -1,0 +1,37 @@
+/// Connect GitHub Account To Project
+git config --global user.name "your_username"
+git config --global user.email "your_email_address@example.com"
+
+
+
+/// First Time Create GitHub New Repository Command
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Pamendra/reena_git.git
+git push -u origin main
+
+
+
+/// Normal Use
+git branch
+git status
+git add .
+git commit -m "message"
+git push origin branchName
+
+
+
+/// Create Branch In Repository
+git branch branchName
+
+
+
+/// change branch from main to my branch
+git checkout branchName
+
+
+/// Merge Branch 
+git merge origin branchName
+git push origin branchName
